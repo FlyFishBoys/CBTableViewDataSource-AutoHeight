@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CBTableViewDataSource-AutoHeight"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "CBTableViewDataSource自动计算高度的扩展"
   s.description  = "CBTableViewDataSource的扩展，这个框架用起来不错，就是在自动布局计算的时候有点问题，添加了一个类别调用UITableView-FDTemplateLayoutCell来计算高度。布局支持Masonry。"
   s.homepage     = "https://github.com/ZWXAllen/CBTableViewDataSource-AutoHeight"
