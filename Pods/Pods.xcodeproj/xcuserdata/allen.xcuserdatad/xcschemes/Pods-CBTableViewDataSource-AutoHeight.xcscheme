@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2E23B34F84AAE36DD3C56A2BDE90B97"
+               BlueprintIdentifier = "7FAD5C4CBA67A0DE01698A3E256CC38F"
                BuildableName = "Pods_CBTableViewDataSource_AutoHeight.framework"
                BlueprintName = "Pods-CBTableViewDataSource-AutoHeight"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2E23B34F84AAE36DD3C56A2BDE90B97"
+            BlueprintIdentifier = "7FAD5C4CBA67A0DE01698A3E256CC38F"
             BuildableName = "Pods_CBTableViewDataSource_AutoHeight.framework"
             BlueprintName = "Pods-CBTableViewDataSource-AutoHeight"
             ReferencedContainer = "container:Pods.xcodeproj">

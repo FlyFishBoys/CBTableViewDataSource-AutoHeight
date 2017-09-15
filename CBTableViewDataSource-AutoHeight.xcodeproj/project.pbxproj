@@ -199,13 +199,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CBTableViewDataSource/CBTableViewDataSource.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CBTableViewDataSource.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

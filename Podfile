@@ -7,6 +7,5 @@ target 'CBTableViewDataSource-AutoHeight' do
 
     pod 'CBTableViewDataSource', '~> 1.1.0'
     pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
-    pod 'Masonry', '~> 1.0.2'
 
 end
