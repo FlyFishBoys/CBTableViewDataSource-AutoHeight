@@ -1,0 +1,2 @@
+# CBTableViewDataSource-AutoHeight
+CBTableViewDataSource的扩展，这个框架用起来不错，就是在自动布局计算的时候有点问题，添加了一个类别调用UITableView-FDTemplateLayoutCell来计算高度。
