@@ -15,8 +15,6 @@
 		9FAD043E1F6B6636009BC8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAD043C1F6B6636009BC8CB /* LaunchScreen.storyboard */; };
 		9FAD04481F6B66F7009BC8CB /* CBBaseTableViewDataSource+AutoHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD04471F6B66F7009BC8CB /* CBBaseTableViewDataSource+AutoHeight.m */; };
 		9FAD044E1F6B6709009BC8CB /* ZWBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD044C1F6B6709009BC8CB /* ZWBaseCell.m */; };
-		9FAD04531F6B6733009BC8CB /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD04501F6B6733009BC8CB /* UserModel.m */; };
-		9FAD04541F6B6733009BC8CB /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD04521F6B6733009BC8CB /* CustomCell.m */; };
 		C5A116EEC2D30BDDAEAE36A5 /* Pods_CBTableViewDataSource_AutoHeight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2B2AB221762F01C7D5DDFB /* Pods_CBTableViewDataSource_AutoHeight.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,10 +36,6 @@
 		9FAD04471F6B66F7009BC8CB /* CBBaseTableViewDataSource+AutoHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBBaseTableViewDataSource+AutoHeight.m"; sourceTree = "<group>"; };
 		9FAD04491F6B6709009BC8CB /* ZWBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBaseCell.h; sourceTree = "<group>"; };
 		9FAD044C1F6B6709009BC8CB /* ZWBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBaseCell.m; sourceTree = "<group>"; };
-		9FAD044F1F6B6733009BC8CB /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
-		9FAD04501F6B6733009BC8CB /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
-		9FAD04511F6B6733009BC8CB /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
-		9FAD04521F6B6733009BC8CB /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +88,6 @@
 		9FAD042D1F6B6635009BC8CB /* CBTableViewDataSource-AutoHeight */ = {
 			isa = PBXGroup;
 			children = (
-				9FAD044F1F6B6733009BC8CB /* UserModel.h */,
-				9FAD04501F6B6733009BC8CB /* UserModel.m */,
-				9FAD04511F6B6733009BC8CB /* CustomCell.h */,
-				9FAD04521F6B6733009BC8CB /* CustomCell.m */,
 				9FAD04451F6B6675009BC8CB /* CBTableViewDataSource+AutoHeight */,
 				9FAD04311F6B6636009BC8CB /* AppDelegate.h */,
 				9FAD04321F6B6636009BC8CB /* AppDelegate.m */,
@@ -265,8 +255,6 @@
 			files = (
 				9FAD04481F6B66F7009BC8CB /* CBBaseTableViewDataSource+AutoHeight.m in Sources */,
 				9FAD04361F6B6636009BC8CB /* ViewController.m in Sources */,
-				9FAD04541F6B6733009BC8CB /* CustomCell.m in Sources */,
-				9FAD04531F6B6733009BC8CB /* UserModel.m in Sources */,
 				9FAD04331F6B6636009BC8CB /* AppDelegate.m in Sources */,
 				9FAD04301F6B6636009BC8CB /* main.m in Sources */,
 				9FAD044E1F6B6709009BC8CB /* ZWBaseCell.m in Sources */,
