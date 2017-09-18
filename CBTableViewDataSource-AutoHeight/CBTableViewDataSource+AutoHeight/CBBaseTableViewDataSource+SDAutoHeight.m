@@ -8,7 +8,6 @@
 
 #import "CBBaseTableViewDataSource+SDAutoHeight.h"
 #import "SDAutoLayout.h"
-#import "CustomCell.h"
 #import "UITableView+SDAutoTableViewCellHeight.h"
 @implementation CBBaseTableViewDataSource (SDAutoHeight)
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
