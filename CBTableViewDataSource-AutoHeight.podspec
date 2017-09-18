@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Allen" => "39341184@qq.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/ZWXAllen/CBTableViewDataSource-AutoHeight.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/ZWXAllen/CBTableViewDataSource-AutoHeight.git", :tag => "0.0.5" }
   s.source_files  = "CBTableViewDataSource-AutoHeight/CBTableViewDataSource+AutoHeight", "CBTableViewDataSource-AutoHeight/CBTableViewDataSource+AutoHeight/**/*.{h,m}"
   s.public_header_files = "CBTableViewDataSource-AutoHeight/CBTableViewDataSource+AutoHeight/**/*.h"
   s.requires_arc = true
