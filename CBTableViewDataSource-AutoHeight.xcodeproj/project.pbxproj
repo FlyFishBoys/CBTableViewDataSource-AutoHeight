@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F7E6AC71F6F4D34002F3179 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E6AC41F6F4D34002F3179 /* UserModel.m */; };
+		9F7E6AC81F6F4D34002F3179 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E6AC61F6F4D34002F3179 /* CustomCell.m */; };
+		9F7E6ACB1F6F4E88002F3179 /* CBBaseTableViewDataSource+SDAutoHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7E6ACA1F6F4E88002F3179 /* CBBaseTableViewDataSource+SDAutoHeight.m */; };
 		9FAD04301F6B6636009BC8CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD042F1F6B6636009BC8CB /* main.m */; };
 		9FAD04331F6B6636009BC8CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD04321F6B6636009BC8CB /* AppDelegate.m */; };
 		9FAD04361F6B6636009BC8CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD04351F6B6636009BC8CB /* ViewController.m */; };
@@ -22,6 +25,12 @@
 		18659E3423C11BCF457022B0 /* Pods-CBTableViewDataSource-AutoHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBTableViewDataSource-AutoHeight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight.debug.xcconfig"; sourceTree = "<group>"; };
 		2EBD7B2D20E0A72C4D86C89E /* Pods-CBTableViewDataSource-AutoHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBTableViewDataSource-AutoHeight.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight.release.xcconfig"; sourceTree = "<group>"; };
 		8A2B2AB221762F01C7D5DDFB /* Pods_CBTableViewDataSource_AutoHeight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CBTableViewDataSource_AutoHeight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7E6AC31F6F4D34002F3179 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		9F7E6AC41F6F4D34002F3179 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		9F7E6AC51F6F4D34002F3179 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		9F7E6AC61F6F4D34002F3179 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		9F7E6AC91F6F4E88002F3179 /* CBBaseTableViewDataSource+SDAutoHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBBaseTableViewDataSource+SDAutoHeight.h"; sourceTree = "<group>"; };
+		9F7E6ACA1F6F4E88002F3179 /* CBBaseTableViewDataSource+SDAutoHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBBaseTableViewDataSource+SDAutoHeight.m"; sourceTree = "<group>"; };
 		9FAD042B1F6B6635009BC8CB /* CBTableViewDataSource-AutoHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CBTableViewDataSource-AutoHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FAD042F1F6B6636009BC8CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9FAD04311F6B6636009BC8CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +103,10 @@
 				9FAD04341F6B6636009BC8CB /* ViewController.h */,
 				9FAD04351F6B6636009BC8CB /* ViewController.m */,
 				9FAD04371F6B6636009BC8CB /* Main.storyboard */,
+				9F7E6AC31F6F4D34002F3179 /* UserModel.h */,
+				9F7E6AC41F6F4D34002F3179 /* UserModel.m */,
+				9F7E6AC51F6F4D34002F3179 /* CustomCell.h */,
+				9F7E6AC61F6F4D34002F3179 /* CustomCell.m */,
 				9FAD043A1F6B6636009BC8CB /* Assets.xcassets */,
 				9FAD043C1F6B6636009BC8CB /* LaunchScreen.storyboard */,
 				9FAD043F1F6B6636009BC8CB /* Info.plist */,
@@ -117,6 +130,8 @@
 				9FAD044C1F6B6709009BC8CB /* ZWBaseCell.m */,
 				9FAD04461F6B66F7009BC8CB /* CBBaseTableViewDataSource+AutoHeight.h */,
 				9FAD04471F6B66F7009BC8CB /* CBBaseTableViewDataSource+AutoHeight.m */,
+				9F7E6AC91F6F4E88002F3179 /* CBBaseTableViewDataSource+SDAutoHeight.h */,
+				9F7E6ACA1F6F4E88002F3179 /* CBBaseTableViewDataSource+SDAutoHeight.m */,
 			);
 			path = "CBTableViewDataSource+AutoHeight";
 			sourceTree = "<group>";
@@ -199,11 +214,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CBTableViewDataSource/CBTableViewDataSource.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CBTableViewDataSource.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +270,10 @@
 			files = (
 				9FAD04481F6B66F7009BC8CB /* CBBaseTableViewDataSource+AutoHeight.m in Sources */,
 				9FAD04361F6B6636009BC8CB /* ViewController.m in Sources */,
+				9F7E6AC71F6F4D34002F3179 /* UserModel.m in Sources */,
 				9FAD04331F6B6636009BC8CB /* AppDelegate.m in Sources */,
+				9F7E6AC81F6F4D34002F3179 /* CustomCell.m in Sources */,
+				9F7E6ACB1F6F4E88002F3179 /* CBBaseTableViewDataSource+SDAutoHeight.m in Sources */,
 				9FAD04301F6B6636009BC8CB /* main.m in Sources */,
 				9FAD044E1F6B6709009BC8CB /* ZWBaseCell.m in Sources */,
 			);

@@ -10,4 +10,5 @@
 @interface ZWBaseCell : UITableViewCell
 
 - (void)configureCell:(NSObject *)data;
+@property (nonatomic, strong) NSObject *cellData;
 @end

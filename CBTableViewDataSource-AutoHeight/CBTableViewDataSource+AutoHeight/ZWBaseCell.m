@@ -16,6 +16,10 @@
     // Configure the view for the selected state
 }
 
+-(void)setCellData:(NSObject *)cellData {
+    [self configureCell:cellData];
+}
+
 - (void)configureCell:(NSObject *)data {
     
 }

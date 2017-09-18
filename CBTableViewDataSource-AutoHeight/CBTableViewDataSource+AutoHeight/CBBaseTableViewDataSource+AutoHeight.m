@@ -20,8 +20,8 @@
     // 获取cell高度
     return [tableView fd_heightForCellWithIdentifier:identifier cacheByIndexPath:indexPath configuration:^(ZWBaseCell *cell) {
         // configurations
-        if ([cell respondsToSelector:@selector(configureCell:)]) {
-            [cell configureCell:data];
+        if ([cell respondsToSelector:@selector(setCellData:)]) {
+            [cell setCellData:data];
         }
     }];
 }

@@ -7,116 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B829E42608AA05507BC2E980CB3ECB /* CBBaseTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9340001C4C207C59CEE243E424429F /* CBBaseTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		087EFAA816C7CB0FD2A49B87241A204D /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 935537AFC639950B67F91DAD87B24A64 /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1991AE4991B2388F2410425966AD1ED3 /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F3632CD53BC0060C1BD3055B497FF0D8 /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35BEA102DC0BE1E886E122B891C6D301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		38495EBEAB4238AA0C629CDC6523D993 /* UITableView+CBTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DF364A23B030422D65C1B44AFD6880 /* UITableView+CBTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50319FD3AAEEA58047B9D2297A38B8AD /* CBDataSourceSection.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FCA9904D1A3C0AD0518A4DBF441D0B /* CBDataSourceSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C4E9330A944FB63138B2512BF800361 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 561DBE7CB145BA42414F1FA82D41353B /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C00B8F0DDDD1BD49227F2D5BBA82295 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B3F4BCDF38AAF7EFBEDE9722DD318 /* UITableView+FDTemplateLayoutCellDebug.m */; };
-		706766969ADF8D9AB459ED8925AA0522 /* CBTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 931449E57713D363E4048F46D2C2DE21 /* CBTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7614999E824EAE006839D2495B5381E9 /* Pods-CBTableViewDataSource-AutoHeight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3C578CCA5660024253859929DD1C46 /* Pods-CBTableViewDataSource-AutoHeight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C8AF4ADEB4B91B2859FC2FDFC8AD950 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9983920677CA17646A13B254C9682C31 /* UITableView+FDKeyedHeightCache.m */; };
-		7D5F12A5541712C4E773F6101616B785 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EED566132C62746A0264ABED767405 /* UITableView+FDTemplateLayoutCell.m */; };
-		80596B9B01759AD3E53DE869401C8CA9 /* UITableView+CBTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E01C8FE821B7507920F904A5B0F555E /* UITableView+CBTableViewDataSource.m */; };
-		8303E0A6DC79E41FB0AF76E4689E664E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		01B829E42608AA05507BC2E980CB3ECB /* CBBaseTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF4C30E8A9E6070B6290FA7D3E28504 /* CBBaseTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07DB31D9A2992BCA55AF273F9F7F0ECE /* Pods-CBTableViewDataSource-AutoHeight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D536C8AA8EFC92C09CFA0514A2750 /* Pods-CBTableViewDataSource-AutoHeight-dummy.m */; };
+		1C32CFF9F37DFA4CFF1A76FAAF693F2C /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A996201C9933F92C17271334AC22960F /* UITableView+FDKeyedHeightCache.m */; };
+		246487E13FA1E73C6407560BEA05BE09 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8DA26F95211513F8B7AD84113748C8 /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA658A4CD88EB456345F623CB1D3BED /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C23162228E3EB43762B4226439C130 /* UIView+SDAutoLayout.m */; };
+		30821EF03F10B4EBD5DD2727786F7160 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D4BCBAF421D2A40C8373710E2349D1 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
+		38495EBEAB4238AA0C629CDC6523D993 /* UITableView+CBTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEBCE8FCC5FB28EA92CBC9F107C7982 /* UITableView+CBTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50319FD3AAEEA58047B9D2297A38B8AD /* CBDataSourceSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 66989E18686FDA015FF8E6C74F4A1A74 /* CBDataSourceSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C605E0FCC41473102083C19FFE1DF6 /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 13717D09228632956C3664F1C1DA6CA0 /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D6C4BB25DFCDC34B8695E6B41667738 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F63E3B57178E37AFC689479109441F2C /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602AF2A6468C71BD14B80748BA6EB7E2 /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B6F12BCC2F3DB7B8ADA2FD1D90D9F7 /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628B4319A5EED8932987BA658E5E51C9 /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C934D060975EDBA805CF250AB41EE4BE /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CE583FF502EC3601EC06519135AD80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		706766969ADF8D9AB459ED8925AA0522 /* CBTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C022B29BC42277BB4FE0B535914161F /* CBTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80596B9B01759AD3E53DE869401C8CA9 /* UITableView+CBTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA844611BF6BAAA50CA488F19569C8B /* UITableView+CBTableViewDataSource.m */; };
+		8BF8625413455D89005341D696E776E6 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F971972C0D14D97D65A90D966E8343 /* UITableView+FDTemplateLayoutCell.m */; };
 		8D66EE41095DF3807D9A7D8DECBEA986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8F48134FAFE94E91628DAC2C98E2847F /* CBTableViewDataSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6AC89F8043CD3FE3EA039A2FC06603 /* CBTableViewDataSource-dummy.m */; };
-		A21EDB6C6CC4355DCF1D958557B9C3FE /* CBTableViewSectionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4EE44A968558A1417D79FB928E12FE /* CBTableViewSectionMaker.m */; };
-		AA2F667D037B2599764F2A3F4F191E3A /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 258674B76387AB50C77D71A860C7983D /* UITableView+FDIndexPathHeightCache.m */; };
-		B4910C8D1F75F7580020801CE6B615B9 /* CBTableViewDataSourceMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = ED632F30B99E6CF14C6A1351F4D640C3 /* CBTableViewDataSourceMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C06B99B5FD1DD35104B7C6E961B2B2E7 /* CBBaseTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 100CBDCEAE3FFDF2A5D64015E07C7100 /* CBBaseTableViewDataSource.m */; };
-		CEA19C0B3E3AC7A6AB2142C1C113F388 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D698329E011005556B463EDBA4B9C6F /* UITableView+FDTemplateLayoutCell-dummy.m */; };
-		D767E26EB4FC433D33D724E1090348C2 /* CBTableViewSectionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B9559EFEB3BA007DCD4C8211C8A46054 /* CBTableViewSectionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E34FABFDBFF18B2CD75141F0F7B3929F /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC8D57A7D6F548D9FA655AAD841E1A /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5589BDCD2C772C195C97E568D948418 /* CBDataSourceSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC633DA4DB9010B491F599B209EDC651 /* CBDataSourceSection.m */; };
-		EA1E30F2B65EAA60E7CC813EED66FBD7 /* Pods-CBTableViewDataSource-AutoHeight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 109D536C8AA8EFC92C09CFA0514A2750 /* Pods-CBTableViewDataSource-AutoHeight-dummy.m */; };
-		F0338A7D35E8298D4FBEA23508437961 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B3411069D6055BD2D0EAF35E47CC18 /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB445AFBCEE6C323D7E7736F2DAB76D1 /* CBTableViewDataSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2B49E1388AEE023EBED52D046ADC20 /* CBTableViewDataSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBC844ACE9AEE213038334033338CAAB /* CBTableViewDataSourceMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA909FC9D4F6E18ABEEE0CCFF38510D /* CBTableViewDataSourceMaker.m */; };
+		8E56D9A5364F1195CC79F905AB18135A /* Pods-CBTableViewDataSource-AutoHeight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3C578CCA5660024253859929DD1C46 /* Pods-CBTableViewDataSource-AutoHeight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F48134FAFE94E91628DAC2C98E2847F /* CBTableViewDataSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C0D2CB2F381AE6712986500A646712 /* CBTableViewDataSource-dummy.m */; };
+		94D42A2EFAE4B71CDBD589ECCACD9AFD /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 289C3E5DA5A2408EB13A3C765FADEC9E /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A21EDB6C6CC4355DCF1D958557B9C3FE /* CBTableViewSectionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BD2D0EE8BFA08BF10D62B68EF44D5B /* CBTableViewSectionMaker.m */; };
+		A9D962C813EE624CF59AEFA255A3DD99 /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 887FAB86D81587507053C2B8C7DF701F /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABE1CFE52ED4C9E989352627C4B1B43C /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D240B3BB316E2224E9C84F988A25D /* UITableView+FDIndexPathHeightCache.m */; };
+		ADC69AC87B35D71B80DCDB7E1F405914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AE4087688C81E7302395C4C91C4A7C4B /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F575BE435787C62F757E0C2AABCD30 /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4910C8D1F75F7580020801CE6B615B9 /* CBTableViewDataSourceMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4628DCC5546E23E87660539E1746A67B /* CBTableViewDataSourceMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C029686F41F53C1C8738AD93C9A3C783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C06B99B5FD1DD35104B7C6E961B2B2E7 /* CBBaseTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC183210312CC2ABAC770C00694A08E /* CBBaseTableViewDataSource.m */; };
+		D2E988C1937CB5A364F6A30CBC4EFC3F /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A6BF3713C9F2F70CDA730768361186 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		D45167AAA9B1F9F4B514578F21F945EF /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ECAF483CC9982A51C4899E79EC6371 /* SDAutoLayout-dummy.m */; };
+		D767E26EB4FC433D33D724E1090348C2 /* CBTableViewSectionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = D37B159FE7CDEB7CA0029072C550B71D /* CBTableViewSectionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5589BDCD2C772C195C97E568D948418 /* CBDataSourceSection.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD0C080F686CD17FBC8E9F50C3C2288 /* CBDataSourceSection.m */; };
+		EE16276FF29EE1DB7C24F626B7B24656 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 935107344150995C7689E98511C66464 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		F32F8BF3681718F195654F35BC785152 /* SDAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D4989101656710B75714D95F507419 /* SDAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB445AFBCEE6C323D7E7736F2DAB76D1 /* CBTableViewDataSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB0EC65BEDB4BFDCFE5F3E4B329CB61 /* CBTableViewDataSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBC844ACE9AEE213038334033338CAAB /* CBTableViewDataSourceMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 415774E6658D161A3D628E676EB10C92 /* CBTableViewDataSourceMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		99B4BA210B9B7D4F59C93F42B56A4680 /* PBXContainerItemProxy */ = {
+		8B4B0D8BD6798BC92ADBC2C825398B41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FDDDA343A110D3CFC15DC0FC6C44036E;
 			remoteInfo = CBTableViewDataSource;
 		};
-		D1F7FD7926F22934849CD3E19BB99CEA /* PBXContainerItemProxy */ = {
+		DA2C15E8AA97C82A0D026AB877287257 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BF59F004DDFD759C3E2F38C61DFB1395;
+			remoteGlobalIDString = C4D7BC00FEC14E72D5271EFCD17E7533;
+			remoteInfo = SDAutoLayout;
+		};
+		FEE5757560926E8B71BA70A9850E75AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19927F6AC39CF59ECA9260C68CDFA2B1;
 			remoteInfo = "UITableView+FDTemplateLayoutCell";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A2B49E1388AEE023EBED52D046ADC20 /* CBTableViewDataSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBTableViewDataSource-umbrella.h"; sourceTree = "<group>"; };
-		100CBDCEAE3FFDF2A5D64015E07C7100 /* CBBaseTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBBaseTableViewDataSource.m; path = CBTableViewDataSource/CBBaseTableViewDataSource.m; sourceTree = "<group>"; };
+		01ECAF483CC9982A51C4899E79EC6371 /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		048A8CE07DE6EE14FADC92DA0A75F685 /* UITableView+FDTemplateLayoutCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UITableView+FDTemplateLayoutCell.modulemap"; sourceTree = "<group>"; };
 		109D536C8AA8EFC92C09CFA0514A2750 /* Pods-CBTableViewDataSource-AutoHeight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBTableViewDataSource-AutoHeight-dummy.m"; sourceTree = "<group>"; };
+		10F575BE435787C62F757E0C2AABCD30 /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
+		13717D09228632956C3664F1C1DA6CA0 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		164421C75D9DD80ED2ECB0DF9CAF315D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		168659CCF93135120F6E03AC943C7EC5 /* Pods-CBTableViewDataSource-AutoHeight-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CBTableViewDataSource-AutoHeight-frameworks.sh"; sourceTree = "<group>"; };
-		1D4EE44A968558A1417D79FB928E12FE /* CBTableViewSectionMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBTableViewSectionMaker.m; path = CBTableViewDataSource/CBTableViewSectionMaker.m; sourceTree = "<group>"; };
+		1B45642B21E552D01EC336572936FEBE /* CBTableViewDataSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CBTableViewDataSource.modulemap; sourceTree = "<group>"; };
+		1C570D7D7C8CBCC852E08C6E8ECB75C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22E74D42320F4D1E953932CF61692278 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		258674B76387AB50C77D71A860C7983D /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
-		2D3B3F4BCDF38AAF7EFBEDE9722DD318 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
-		3E01C8FE821B7507920F904A5B0F555E /* UITableView+CBTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+CBTableViewDataSource.m"; path = "CBTableViewDataSource/UITableView+CBTableViewDataSource.m"; sourceTree = "<group>"; };
-		561DBE7CB145BA42414F1FA82D41353B /* UITableView+FDTemplateLayoutCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-umbrella.h"; sourceTree = "<group>"; };
+		289C3E5DA5A2408EB13A3C765FADEC9E /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		2C73AAB03FCCC73C766ABEFD20866602 /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITableView_FDTemplateLayoutCell.framework; path = "UITableView+FDTemplateLayoutCell.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4D240B3BB316E2224E9C84F988A25D /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		350C479E77BE2A892D45BE0E7266D303 /* CBTableViewDataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CBTableViewDataSource.framework; path = CBTableViewDataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C022B29BC42277BB4FE0B535914161F /* CBTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBTableViewDataSource.h; path = CBTableViewDataSource/CBTableViewDataSource.h; sourceTree = "<group>"; };
+		415774E6658D161A3D628E676EB10C92 /* CBTableViewDataSourceMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBTableViewDataSourceMaker.m; path = CBTableViewDataSource/CBTableViewDataSourceMaker.m; sourceTree = "<group>"; };
+		4628DCC5546E23E87660539E1746A67B /* CBTableViewDataSourceMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBTableViewDataSourceMaker.h; path = CBTableViewDataSource/CBTableViewDataSourceMaker.h; sourceTree = "<group>"; };
+		50BD2D0EE8BFA08BF10D62B68EF44D5B /* CBTableViewSectionMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBTableViewSectionMaker.m; path = CBTableViewDataSource/CBTableViewSectionMaker.m; sourceTree = "<group>"; };
+		57E565F9687BFCB4F4846C8E307954D3 /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
 		5A3C578CCA5660024253859929DD1C46 /* Pods-CBTableViewDataSource-AutoHeight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBTableViewDataSource-AutoHeight-umbrella.h"; sourceTree = "<group>"; };
+		5A8DA26F95211513F8B7AD84113748C8 /* UITableView+FDTemplateLayoutCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-umbrella.h"; sourceTree = "<group>"; };
+		5BA844611BF6BAAA50CA488F19569C8B /* UITableView+CBTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+CBTableViewDataSource.m"; path = "CBTableViewDataSource/UITableView+CBTableViewDataSource.m"; sourceTree = "<group>"; };
+		619E7C8E3D7F0E031EC41636F058FC3C /* SDAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDAutoLayout.framework; path = SDAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		69A46D2B781193865D6D3A38BF29A1C9 /* CBTableViewDataSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CBTableViewDataSource.modulemap; sourceTree = "<group>"; };
-		6C6AC89F8043CD3FE3EA039A2FC06603 /* CBTableViewDataSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBTableViewDataSource-dummy.m"; sourceTree = "<group>"; };
-		6D698329E011005556B463EDBA4B9C6F /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
-		74D36595D2AAF1365BD51A61FF202C14 /* Pods_CBTableViewDataSource_AutoHeight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CBTableViewDataSource_AutoHeight.framework; path = "Pods-CBTableViewDataSource-AutoHeight.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A3C07B2D0535F21CD336D1204766AEE /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
-		8C434D69DEAA835EEAD58951E54AA2AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FCBB922427AB43CDEED380FC9EAF7D0 /* UITableView+FDTemplateLayoutCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UITableView+FDTemplateLayoutCell.modulemap"; sourceTree = "<group>"; };
-		931449E57713D363E4048F46D2C2DE21 /* CBTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBTableViewDataSource.h; path = CBTableViewDataSource/CBTableViewDataSource.h; sourceTree = "<group>"; };
-		935537AFC639950B67F91DAD87B24A64 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		66989E18686FDA015FF8E6C74F4A1A74 /* CBDataSourceSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBDataSourceSection.h; path = CBTableViewDataSource/CBDataSourceSection.h; sourceTree = "<group>"; };
+		6CEBCE8FCC5FB28EA92CBC9F107C7982 /* UITableView+CBTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+CBTableViewDataSource.h"; path = "CBTableViewDataSource/UITableView+CBTableViewDataSource.h"; sourceTree = "<group>"; };
+		72D4989101656710B75714D95F507419 /* SDAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		73C23162228E3EB43762B4226439C130 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		77EACCDA530CB15909E85613084043B4 /* CBTableViewDataSource.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBTableViewDataSource.xcconfig; sourceTree = "<group>"; };
+		7EB0EC65BEDB4BFDCFE5F3E4B329CB61 /* CBTableViewDataSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBTableViewDataSource-umbrella.h"; sourceTree = "<group>"; };
+		81C0D2CB2F381AE6712986500A646712 /* CBTableViewDataSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBTableViewDataSource-dummy.m"; sourceTree = "<group>"; };
+		85D4BCBAF421D2A40C8373710E2349D1 /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
+		887FAB86D81587507053C2B8C7DF701F /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		8B48C2AA3B2D2DCC0F2E0420393FDF7D /* CBTableViewDataSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBTableViewDataSource-prefix.pch"; sourceTree = "<group>"; };
+		935107344150995C7689E98511C66464 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9983920677CA17646A13B254C9682C31 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
-		9DAB7CC260D2A147CBDC46E45BFD58FC /* CBTableViewDataSource.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBTableViewDataSource.xcconfig; sourceTree = "<group>"; };
 		9EB2996B53B1A1988CD508006F2D1B91 /* Pods-CBTableViewDataSource-AutoHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBTableViewDataSource-AutoHeight.debug.xcconfig"; sourceTree = "<group>"; };
-		9F6F9B9A07AC728D85425C9025E2B30D /* CBTableViewDataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CBTableViewDataSource.framework; path = CBTableViewDataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA909FC9D4F6E18ABEEE0CCFF38510D /* CBTableViewDataSourceMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBTableViewDataSourceMaker.m; path = CBTableViewDataSource/CBTableViewDataSourceMaker.m; sourceTree = "<group>"; };
-		A6DF364A23B030422D65C1B44AFD6880 /* UITableView+CBTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+CBTableViewDataSource.h"; path = "CBTableViewDataSource/UITableView+CBTableViewDataSource.h"; sourceTree = "<group>"; };
-		AB4C0380F63DC19CACF5389F52FA54D3 /* CBTableViewDataSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBTableViewDataSource-prefix.pch"; sourceTree = "<group>"; };
+		A996201C9933F92C17271334AC22960F /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		AA32D5A6378F44F202027378425084F1 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
 		B3876CEF004D6EDCABCC1DDFBB7BF4DE /* Pods-CBTableViewDataSource-AutoHeight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CBTableViewDataSource-AutoHeight.modulemap"; sourceTree = "<group>"; };
 		B546A9022FA5A4E0192310AD9B512179 /* Pods-CBTableViewDataSource-AutoHeight-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBTableViewDataSource-AutoHeight-acknowledgements.plist"; sourceTree = "<group>"; };
-		B9559EFEB3BA007DCD4C8211C8A46054 /* CBTableViewSectionMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBTableViewSectionMaker.h; path = CBTableViewDataSource/CBTableViewSectionMaker.h; sourceTree = "<group>"; };
+		BBC183210312CC2ABAC770C00694A08E /* CBBaseTableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBBaseTableViewDataSource.m; path = CBTableViewDataSource/CBBaseTableViewDataSource.m; sourceTree = "<group>"; };
 		C659D5E5D91044E03BE0BE6F0153D731 /* Pods-CBTableViewDataSource-AutoHeight-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CBTableViewDataSource-AutoHeight-resources.sh"; sourceTree = "<group>"; };
-		C81E6A18CD59317341704A4B4E723EEA /* UITableView_FDTemplateLayoutCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITableView_FDTemplateLayoutCell.framework; path = "UITableView+FDTemplateLayoutCell.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1EED566132C62746A0264ABED767405 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
-		D59D982AA199E06D13EB99897E6388E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F971972C0D14D97D65A90D966E8343 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		C934D060975EDBA805CF250AB41EE4BE /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		D37B159FE7CDEB7CA0029072C550B71D /* CBTableViewSectionMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBTableViewSectionMaker.h; path = CBTableViewDataSource/CBTableViewSectionMaker.h; sourceTree = "<group>"; };
 		D925AAA07AB169E243DAEA854E4D2FF7 /* Pods-CBTableViewDataSource-AutoHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBTableViewDataSource-AutoHeight.release.xcconfig"; sourceTree = "<group>"; };
-		DBFC8D57A7D6F548D9FA655AAD841E1A /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
-		DC633DA4DB9010B491F599B209EDC651 /* CBDataSourceSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBDataSourceSection.m; path = CBTableViewDataSource/CBDataSourceSection.m; sourceTree = "<group>"; };
-		E63E5495583B96A57089A7AAE2D46F02 /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
+		D9B6F12BCC2F3DB7B8ADA2FD1D90D9F7 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		DAA913C56C807E5B64183239EDF7CBC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF4C30E8A9E6070B6290FA7D3E28504 /* CBBaseTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBBaseTableViewDataSource.h; path = CBTableViewDataSource/CBBaseTableViewDataSource.h; sourceTree = "<group>"; };
+		E0C5CFCEBB467F8D4A9FED2DF3376ACC /* Pods_CBTableViewDataSource_AutoHeight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CBTableViewDataSource_AutoHeight.framework; path = "Pods-CBTableViewDataSource-AutoHeight.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A3153F5C0D4CDF6896AC3B47E974FA /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
 		E73878A31940D8C6E97921C8332B1AD2 /* Pods-CBTableViewDataSource-AutoHeight-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CBTableViewDataSource-AutoHeight-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED632F30B99E6CF14C6A1351F4D640C3 /* CBTableViewDataSourceMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBTableViewDataSourceMaker.h; path = CBTableViewDataSource/CBTableViewDataSourceMaker.h; sourceTree = "<group>"; };
-		EE9340001C4C207C59CEE243E424429F /* CBBaseTableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBBaseTableViewDataSource.h; path = CBTableViewDataSource/CBBaseTableViewDataSource.h; sourceTree = "<group>"; };
-		F3632CD53BC0060C1BD3055B497FF0D8 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
-		F4FCA9904D1A3C0AD0518A4DBF441D0B /* CBDataSourceSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBDataSourceSection.h; path = CBTableViewDataSource/CBDataSourceSection.h; sourceTree = "<group>"; };
-		F5B3411069D6055BD2D0EAF35E47CC18 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		EDD0C080F686CD17FBC8E9F50C3C2288 /* CBDataSourceSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBDataSourceSection.m; path = CBTableViewDataSource/CBDataSourceSection.m; sourceTree = "<group>"; };
+		F3A2B41A00491BD1C71B9E34E0C6E416 /* SDAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDAutoLayout.modulemap; sourceTree = "<group>"; };
+		F63E3B57178E37AFC689479109441F2C /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		F6A6BF3713C9F2F70CDA730768361186 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		FE79D2C07294D38EFE06435BEEE92475 /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2640E9331B437A510230CC7339B93E32 /* Frameworks */ = {
+		577617B66E2F611A768B231058D27209 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8303E0A6DC79E41FB0AF76E4689E664E /* Foundation.framework in Frameworks */,
+				C029686F41F53C1C8738AD93C9A3C783 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A374D67C01CBEA27A9AAEFAC7A801008 /* Frameworks */ = {
+		AC80226D4662D62F395D9B85F534A8B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BEA102DC0BE1E886E122B891C6D301 /* Foundation.framework in Frameworks */,
+				65CE583FF502EC3601EC06519135AD80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C5B2004DEDD54B22A78C202743B898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC69AC87B35D71B80DCDB7E1F405914 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +166,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05CED00AA565D8587B245E7F4960F75F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C570D7D7C8CBCC852E08C6E8ECB75C3 /* Info.plist */,
+				F3A2B41A00491BD1C71B9E34E0C6E416 /* SDAutoLayout.modulemap */,
+				FE79D2C07294D38EFE06435BEEE92475 /* SDAutoLayout.xcconfig */,
+				01ECAF483CC9982A51C4899E79EC6371 /* SDAutoLayout-dummy.m */,
+				AA32D5A6378F44F202027378425084F1 /* SDAutoLayout-prefix.pch */,
+				72D4989101656710B75714D95F507419 /* SDAutoLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
 		2B0927A55E461672047F0A4C27B25BAF /* Pods-CBTableViewDataSource-AutoHeight */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,28 +198,60 @@
 			path = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight";
 			sourceTree = "<group>";
 		};
-		595EDB9503953DF8F711A0332CC6BA55 /* Products */ = {
+		34647C5D06932A7D16F2C6266BD2484F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F6F9B9A07AC728D85425C9025E2B30D /* CBTableViewDataSource.framework */,
-				74D36595D2AAF1365BD51A61FF202C14 /* Pods_CBTableViewDataSource_AutoHeight.framework */,
-				C81E6A18CD59317341704A4B4E723EEA /* UITableView_FDTemplateLayoutCell.framework */,
+				350C479E77BE2A892D45BE0E7266D303 /* CBTableViewDataSource.framework */,
+				E0C5CFCEBB467F8D4A9FED2DF3376ACC /* Pods_CBTableViewDataSource_AutoHeight.framework */,
+				619E7C8E3D7F0E031EC41636F058FC3C /* SDAutoLayout.framework */,
+				2C73AAB03FCCC73C766ABEFD20866602 /* UITableView_FDTemplateLayoutCell.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		779C2664CFF5BAC2A2DD6727E1030D03 /* Support Files */ = {
+		45AD5AE23FC1F3376A2B0B6291386A58 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				69A46D2B781193865D6D3A38BF29A1C9 /* CBTableViewDataSource.modulemap */,
-				9DAB7CC260D2A147CBDC46E45BFD58FC /* CBTableViewDataSource.xcconfig */,
-				6C6AC89F8043CD3FE3EA039A2FC06603 /* CBTableViewDataSource-dummy.m */,
-				AB4C0380F63DC19CACF5389F52FA54D3 /* CBTableViewDataSource-prefix.pch */,
-				0A2B49E1388AEE023EBED52D046ADC20 /* CBTableViewDataSource-umbrella.h */,
-				8C434D69DEAA835EEAD58951E54AA2AE /* Info.plist */,
+				1B45642B21E552D01EC336572936FEBE /* CBTableViewDataSource.modulemap */,
+				77EACCDA530CB15909E85613084043B4 /* CBTableViewDataSource.xcconfig */,
+				81C0D2CB2F381AE6712986500A646712 /* CBTableViewDataSource-dummy.m */,
+				8B48C2AA3B2D2DCC0F2E0420393FDF7D /* CBTableViewDataSource-prefix.pch */,
+				7EB0EC65BEDB4BFDCFE5F3E4B329CB61 /* CBTableViewDataSource-umbrella.h */,
+				DAA913C56C807E5B64183239EDF7CBC0 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CBTableViewDataSource";
+			sourceTree = "<group>";
+		};
+		63519E84C69309564E3B8EE2AF1D5D1C /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				C934D060975EDBA805CF250AB41EE4BE /* UITableView+FDIndexPathHeightCache.h */,
+				2D4D240B3BB316E2224E9C84F988A25D /* UITableView+FDIndexPathHeightCache.m */,
+				13717D09228632956C3664F1C1DA6CA0 /* UITableView+FDKeyedHeightCache.h */,
+				A996201C9933F92C17271334AC22960F /* UITableView+FDKeyedHeightCache.m */,
+				F63E3B57178E37AFC689479109441F2C /* UITableView+FDTemplateLayoutCell.h */,
+				C8F971972C0D14D97D65A90D966E8343 /* UITableView+FDTemplateLayoutCell.m */,
+				289C3E5DA5A2408EB13A3C765FADEC9E /* UITableView+FDTemplateLayoutCellDebug.h */,
+				F6A6BF3713C9F2F70CDA730768361186 /* UITableView+FDTemplateLayoutCellDebug.m */,
+				6DA906ECFECD9098EFF7653A03F19F08 /* Support Files */,
+			);
+			name = "UITableView+FDTemplateLayoutCell";
+			path = "UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		6DA906ECFECD9098EFF7653A03F19F08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				164421C75D9DD80ED2ECB0DF9CAF315D /* Info.plist */,
+				048A8CE07DE6EE14FADC92DA0A75F685 /* UITableView+FDTemplateLayoutCell.modulemap */,
+				E6A3153F5C0D4CDF6896AC3B47E974FA /* UITableView+FDTemplateLayoutCell.xcconfig */,
+				85D4BCBAF421D2A40C8373710E2349D1 /* UITableView+FDTemplateLayoutCell-dummy.m */,
+				57E565F9687BFCB4F4846C8E307954D3 /* UITableView+FDTemplateLayoutCell-prefix.pch */,
+				5A8DA26F95211513F8B7AD84113748C8 /* UITableView+FDTemplateLayoutCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
 		};
 		78FA4F338F33E48CEA51AEECEF8CBB5D /* Targets Support Files */ = {
@@ -186,31 +267,32 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8586C64C12AD55EC83AA7D0B74F02003 /* Pods */,
-				595EDB9503953DF8F711A0332CC6BA55 /* Products */,
+				A9BA37B0FC12016A6FE063EECA7ED7D4 /* Pods */,
+				34647C5D06932A7D16F2C6266BD2484F /* Products */,
 				78FA4F338F33E48CEA51AEECEF8CBB5D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		82ECDA0F854047961EC95693E846767B /* Support Files */ = {
+		A613D90088A0EAD19062F35C92017EC5 /* SDAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				D59D982AA199E06D13EB99897E6388E8 /* Info.plist */,
-				8FCBB922427AB43CDEED380FC9EAF7D0 /* UITableView+FDTemplateLayoutCell.modulemap */,
-				8A3C07B2D0535F21CD336D1204766AEE /* UITableView+FDTemplateLayoutCell.xcconfig */,
-				6D698329E011005556B463EDBA4B9C6F /* UITableView+FDTemplateLayoutCell-dummy.m */,
-				E63E5495583B96A57089A7AAE2D46F02 /* UITableView+FDTemplateLayoutCell-prefix.pch */,
-				561DBE7CB145BA42414F1FA82D41353B /* UITableView+FDTemplateLayoutCell-umbrella.h */,
+				10F575BE435787C62F757E0C2AABCD30 /* SDAutoLayout.h */,
+				D9B6F12BCC2F3DB7B8ADA2FD1D90D9F7 /* UITableView+SDAutoTableViewCellHeight.h */,
+				935107344150995C7689E98511C66464 /* UITableView+SDAutoTableViewCellHeight.m */,
+				887FAB86D81587507053C2B8C7DF701F /* UIView+SDAutoLayout.h */,
+				73C23162228E3EB43762B4226439C130 /* UIView+SDAutoLayout.m */,
+				05CED00AA565D8587B245E7F4960F75F /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
+			name = SDAutoLayout;
+			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
-		8586C64C12AD55EC83AA7D0B74F02003 /* Pods */ = {
+		A9BA37B0FC12016A6FE063EECA7ED7D4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FB357F51231127317CFC54FA27E62CA9 /* CBTableViewDataSource */,
-				CF16BC1C5E24260DE0E264F742D94CBA /* UITableView+FDTemplateLayoutCell */,
+				FC03E10BE8619EB6E83929A904DF104D /* CBTableViewDataSource */,
+				A613D90088A0EAD19062F35C92017EC5 /* SDAutoLayout */,
+				63519E84C69309564E3B8EE2AF1D5D1C /* UITableView+FDTemplateLayoutCell */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,23 +305,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CF16BC1C5E24260DE0E264F742D94CBA /* UITableView+FDTemplateLayoutCell */ = {
-			isa = PBXGroup;
-			children = (
-				F3632CD53BC0060C1BD3055B497FF0D8 /* UITableView+FDIndexPathHeightCache.h */,
-				258674B76387AB50C77D71A860C7983D /* UITableView+FDIndexPathHeightCache.m */,
-				935537AFC639950B67F91DAD87B24A64 /* UITableView+FDKeyedHeightCache.h */,
-				9983920677CA17646A13B254C9682C31 /* UITableView+FDKeyedHeightCache.m */,
-				DBFC8D57A7D6F548D9FA655AAD841E1A /* UITableView+FDTemplateLayoutCell.h */,
-				D1EED566132C62746A0264ABED767405 /* UITableView+FDTemplateLayoutCell.m */,
-				F5B3411069D6055BD2D0EAF35E47CC18 /* UITableView+FDTemplateLayoutCellDebug.h */,
-				2D3B3F4BCDF38AAF7EFBEDE9722DD318 /* UITableView+FDTemplateLayoutCellDebug.m */,
-				82ECDA0F854047961EC95693E846767B /* Support Files */,
-			);
-			name = "UITableView+FDTemplateLayoutCell";
-			path = "UITableView+FDTemplateLayoutCell";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,21 +313,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FB357F51231127317CFC54FA27E62CA9 /* CBTableViewDataSource */ = {
+		FC03E10BE8619EB6E83929A904DF104D /* CBTableViewDataSource */ = {
 			isa = PBXGroup;
 			children = (
-				EE9340001C4C207C59CEE243E424429F /* CBBaseTableViewDataSource.h */,
-				100CBDCEAE3FFDF2A5D64015E07C7100 /* CBBaseTableViewDataSource.m */,
-				F4FCA9904D1A3C0AD0518A4DBF441D0B /* CBDataSourceSection.h */,
-				DC633DA4DB9010B491F599B209EDC651 /* CBDataSourceSection.m */,
-				931449E57713D363E4048F46D2C2DE21 /* CBTableViewDataSource.h */,
-				ED632F30B99E6CF14C6A1351F4D640C3 /* CBTableViewDataSourceMaker.h */,
-				9FA909FC9D4F6E18ABEEE0CCFF38510D /* CBTableViewDataSourceMaker.m */,
-				B9559EFEB3BA007DCD4C8211C8A46054 /* CBTableViewSectionMaker.h */,
-				1D4EE44A968558A1417D79FB928E12FE /* CBTableViewSectionMaker.m */,
-				A6DF364A23B030422D65C1B44AFD6880 /* UITableView+CBTableViewDataSource.h */,
-				3E01C8FE821B7507920F904A5B0F555E /* UITableView+CBTableViewDataSource.m */,
-				779C2664CFF5BAC2A2DD6727E1030D03 /* Support Files */,
+				DCF4C30E8A9E6070B6290FA7D3E28504 /* CBBaseTableViewDataSource.h */,
+				BBC183210312CC2ABAC770C00694A08E /* CBBaseTableViewDataSource.m */,
+				66989E18686FDA015FF8E6C74F4A1A74 /* CBDataSourceSection.h */,
+				EDD0C080F686CD17FBC8E9F50C3C2288 /* CBDataSourceSection.m */,
+				3C022B29BC42277BB4FE0B535914161F /* CBTableViewDataSource.h */,
+				4628DCC5546E23E87660539E1746A67B /* CBTableViewDataSourceMaker.h */,
+				415774E6658D161A3D628E676EB10C92 /* CBTableViewDataSourceMaker.m */,
+				D37B159FE7CDEB7CA0029072C550B71D /* CBTableViewSectionMaker.h */,
+				50BD2D0EE8BFA08BF10D62B68EF44D5B /* CBTableViewSectionMaker.m */,
+				6CEBCE8FCC5FB28EA92CBC9F107C7982 /* UITableView+CBTableViewDataSource.h */,
+				5BA844611BF6BAAA50CA488F19569C8B /* UITableView+CBTableViewDataSource.m */,
+				45AD5AE23FC1F3376A2B0B6291386A58 /* Support Files */,
 			);
 			name = CBTableViewDataSource;
 			path = CBTableViewDataSource;
@@ -271,6 +336,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1263439F09A207F3EAEB51F2DEC02104 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E56D9A5364F1195CC79F905AB18135A /* Pods-CBTableViewDataSource-AutoHeight-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C05842A9072F28FB4465E968E88745C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,55 +358,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39C120172E1F6402B9B6BCD165E1574A /* Headers */ = {
+		594E0291103D2613FD059FDF21775181 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1991AE4991B2388F2410425966AD1ED3 /* UITableView+FDIndexPathHeightCache.h in Headers */,
-				087EFAA816C7CB0FD2A49B87241A204D /* UITableView+FDKeyedHeightCache.h in Headers */,
-				5C4E9330A944FB63138B2512BF800361 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */,
-				E34FABFDBFF18B2CD75141F0F7B3929F /* UITableView+FDTemplateLayoutCell.h in Headers */,
-				F0338A7D35E8298D4FBEA23508437961 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+				F32F8BF3681718F195654F35BC785152 /* SDAutoLayout-umbrella.h in Headers */,
+				AE4087688C81E7302395C4C91C4A7C4B /* SDAutoLayout.h in Headers */,
+				602AF2A6468C71BD14B80748BA6EB7E2 /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				A9D962C813EE624CF59AEFA255A3DD99 /* UIView+SDAutoLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93E180E6F14F314B18A09CDA348CA7B6 /* Headers */ = {
+		96BA8A140E82A44CFF829533B9F4ED5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7614999E824EAE006839D2495B5381E9 /* Pods-CBTableViewDataSource-AutoHeight-umbrella.h in Headers */,
+				628B4319A5EED8932987BA658E5E51C9 /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				56C605E0FCC41473102083C19FFE1DF6 /* UITableView+FDKeyedHeightCache.h in Headers */,
+				246487E13FA1E73C6407560BEA05BE09 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */,
+				5D6C4BB25DFCDC34B8695E6B41667738 /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				94D42A2EFAE4B71CDBD589ECCACD9AFD /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7FAD5C4CBA67A0DE01698A3E256CC38F /* Pods-CBTableViewDataSource-AutoHeight */ = {
+		19927F6AC39CF59ECA9260C68CDFA2B1 /* UITableView+FDTemplateLayoutCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9ECCD7C4497CE8A870AC7D9AFF600031 /* Build configuration list for PBXNativeTarget "Pods-CBTableViewDataSource-AutoHeight" */;
+			buildConfigurationList = E2DA7865CE04145818A28226B89E279E /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
 			buildPhases = (
-				4A33D6FD58FE8092472FCF44A55CCE26 /* Sources */,
-				A374D67C01CBEA27A9AAEFAC7A801008 /* Frameworks */,
-				93E180E6F14F314B18A09CDA348CA7B6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7051D8F4141C21EA20D525FFE255012 /* PBXTargetDependency */,
-				DBB5D20C60D6CBBEE0A85C758B55CBD3 /* PBXTargetDependency */,
-			);
-			name = "Pods-CBTableViewDataSource-AutoHeight";
-			productName = "Pods-CBTableViewDataSource-AutoHeight";
-			productReference = 74D36595D2AAF1365BD51A61FF202C14 /* Pods_CBTableViewDataSource_AutoHeight.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BF59F004DDFD759C3E2F38C61DFB1395 /* UITableView+FDTemplateLayoutCell */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FCF25C2ECB8D9CD8937B2EB6DBBD4390 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
-			buildPhases = (
-				A7FFD8EA024975D6BE0D2EEAEEE085D1 /* Sources */,
-				2640E9331B437A510230CC7339B93E32 /* Frameworks */,
-				39C120172E1F6402B9B6BCD165E1574A /* Headers */,
+				B3F07B981DCF1F0C749D015DD9520E1E /* Sources */,
+				AC80226D4662D62F395D9B85F534A8B2 /* Frameworks */,
+				96BA8A140E82A44CFF829533B9F4ED5B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,7 +398,44 @@
 			);
 			name = "UITableView+FDTemplateLayoutCell";
 			productName = "UITableView+FDTemplateLayoutCell";
-			productReference = C81E6A18CD59317341704A4B4E723EEA /* UITableView_FDTemplateLayoutCell.framework */;
+			productReference = 2C73AAB03FCCC73C766ABEFD20866602 /* UITableView_FDTemplateLayoutCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4D7BC00FEC14E72D5271EFCD17E7533 /* SDAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AAE21AE7FDF0E5B29CA3D64848B039 /* Build configuration list for PBXNativeTarget "SDAutoLayout" */;
+			buildPhases = (
+				35D63EE6421518A932B78BB4DB815BA9 /* Sources */,
+				C6C5B2004DEDD54B22A78C202743B898 /* Frameworks */,
+				594E0291103D2613FD059FDF21775181 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDAutoLayout;
+			productName = SDAutoLayout;
+			productReference = 619E7C8E3D7F0E031EC41636F058FC3C /* SDAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9EDB44FD8408C9E2ACC7AAB18D69FA5 /* Pods-CBTableViewDataSource-AutoHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF448492DB5C2A6687E0C509FBAAC92B /* Build configuration list for PBXNativeTarget "Pods-CBTableViewDataSource-AutoHeight" */;
+			buildPhases = (
+				D235169A9CDE24200DF5CCE8DAFADBD7 /* Sources */,
+				577617B66E2F611A768B231058D27209 /* Frameworks */,
+				1263439F09A207F3EAEB51F2DEC02104 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7AB04E5EA213B2BCF750AE5216C2787 /* PBXTargetDependency */,
+				37B85549E9B4BEA87A2054E5E9473C50 /* PBXTargetDependency */,
+				8A7C87116301A92456BA7391CE890D4B /* PBXTargetDependency */,
+			);
+			name = "Pods-CBTableViewDataSource-AutoHeight";
+			productName = "Pods-CBTableViewDataSource-AutoHeight";
+			productReference = E0C5CFCEBB467F8D4A9FED2DF3376ACC /* Pods_CBTableViewDataSource_AutoHeight.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FDDDA343A110D3CFC15DC0FC6C44036E /* CBTableViewDataSource */ = {
@@ -358,7 +452,7 @@
 			);
 			name = CBTableViewDataSource;
 			productName = CBTableViewDataSource;
-			productReference = 9F6F9B9A07AC728D85425C9025E2B30D /* CBTableViewDataSource.framework */;
+			productReference = 350C479E77BE2A892D45BE0E7266D303 /* CBTableViewDataSource.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -378,23 +472,26 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 595EDB9503953DF8F711A0332CC6BA55 /* Products */;
+			productRefGroup = 34647C5D06932A7D16F2C6266BD2484F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FDDDA343A110D3CFC15DC0FC6C44036E /* CBTableViewDataSource */,
-				7FAD5C4CBA67A0DE01698A3E256CC38F /* Pods-CBTableViewDataSource-AutoHeight */,
-				BF59F004DDFD759C3E2F38C61DFB1395 /* UITableView+FDTemplateLayoutCell */,
+				F9EDB44FD8408C9E2ACC7AAB18D69FA5 /* Pods-CBTableViewDataSource-AutoHeight */,
+				C4D7BC00FEC14E72D5271EFCD17E7533 /* SDAutoLayout */,
+				19927F6AC39CF59ECA9260C68CDFA2B1 /* UITableView+FDTemplateLayoutCell */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A33D6FD58FE8092472FCF44A55CCE26 /* Sources */ = {
+		35D63EE6421518A932B78BB4DB815BA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA1E30F2B65EAA60E7CC813EED66FBD7 /* Pods-CBTableViewDataSource-AutoHeight-dummy.m in Sources */,
+				D45167AAA9B1F9F4B514578F21F945EF /* SDAutoLayout-dummy.m in Sources */,
+				EE16276FF29EE1DB7C24F626B7B24656 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				2BA658A4CD88EB456345F623CB1D3BED /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,36 +508,86 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7FFD8EA024975D6BE0D2EEAEEE085D1 /* Sources */ = {
+		B3F07B981DCF1F0C749D015DD9520E1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2F667D037B2599764F2A3F4F191E3A /* UITableView+FDIndexPathHeightCache.m in Sources */,
-				7C8AF4ADEB4B91B2859FC2FDFC8AD950 /* UITableView+FDKeyedHeightCache.m in Sources */,
-				CEA19C0B3E3AC7A6AB2142C1C113F388 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
-				7D5F12A5541712C4E773F6101616B785 /* UITableView+FDTemplateLayoutCell.m in Sources */,
-				6C00B8F0DDDD1BD49227F2D5BBA82295 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				ABE1CFE52ED4C9E989352627C4B1B43C /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				1C32CFF9F37DFA4CFF1A76FAAF693F2C /* UITableView+FDKeyedHeightCache.m in Sources */,
+				30821EF03F10B4EBD5DD2727786F7160 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
+				8BF8625413455D89005341D696E776E6 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				D2E988C1937CB5A364F6A30CBC4EFC3F /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D235169A9CDE24200DF5CCE8DAFADBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DB31D9A2992BCA55AF273F9F7F0ECE /* Pods-CBTableViewDataSource-AutoHeight-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DBB5D20C60D6CBBEE0A85C758B55CBD3 /* PBXTargetDependency */ = {
+		37B85549E9B4BEA87A2054E5E9473C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = C4D7BC00FEC14E72D5271EFCD17E7533 /* SDAutoLayout */;
+			targetProxy = DA2C15E8AA97C82A0D026AB877287257 /* PBXContainerItemProxy */;
+		};
+		8A7C87116301A92456BA7391CE890D4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UITableView+FDTemplateLayoutCell";
-			target = BF59F004DDFD759C3E2F38C61DFB1395 /* UITableView+FDTemplateLayoutCell */;
-			targetProxy = D1F7FD7926F22934849CD3E19BB99CEA /* PBXContainerItemProxy */;
+			target = 19927F6AC39CF59ECA9260C68CDFA2B1 /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = FEE5757560926E8B71BA70A9850E75AF /* PBXContainerItemProxy */;
 		};
-		F7051D8F4141C21EA20D525FFE255012 /* PBXTargetDependency */ = {
+		E7AB04E5EA213B2BCF750AE5216C2787 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CBTableViewDataSource;
 			target = FDDDA343A110D3CFC15DC0FC6C44036E /* CBTableViewDataSource */;
-			targetProxy = 99B4BA210B9B7D4F59C93F42B56A4680 /* PBXContainerItemProxy */;
+			targetProxy = 8B4B0D8BD6798BC92ADBC2C825398B41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1BB1409F5579E12215F4BCB64EFBA9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D925AAA07AB169E243DAEA854E4D2FF7 /* Pods-CBTableViewDataSource-AutoHeight.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CBTableViewDataSource_AutoHeight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -490,6 +637,42 @@
 			};
 			name = Debug;
 		};
+		2DC552358E594791CF24404C585A9029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB2996B53B1A1988CD508006F2D1B91 /* Pods-CBTableViewDataSource-AutoHeight.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CBTableViewDataSource_AutoHeight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -534,9 +717,9 @@
 			};
 			name = Release;
 		};
-		37D23E1FA2D2F52EEC17D44BD8786C50 /* Debug */ = {
+		5E1E627EE5225643891F38904D1A1E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A3C07B2D0535F21CD336D1204766AEE /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			baseConfigurationReference = FE79D2C07294D38EFE06435BEEE92475 /* SDAutoLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -550,14 +733,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDAutoLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UITableView_FDTemplateLayoutCell;
+				PRODUCT_NAME = SDAutoLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -567,9 +750,9 @@
 			};
 			name = Debug;
 		};
-		602B3BFC965CB20D969BA883145D6500 /* Release */ = {
+		60C5F6B54EB284CC096187DE2C2EEA00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D925AAA07AB169E243DAEA854E4D2FF7 /* Pods-CBTableViewDataSource-AutoHeight.release.xcconfig */;
+			baseConfigurationReference = FE79D2C07294D38EFE06435BEEE92475 /* SDAutoLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -583,65 +766,26 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDAutoLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CBTableViewDataSource_AutoHeight;
+				PRODUCT_NAME = SDAutoLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		89D06FEE92159F38727A2FC64E36B531 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EB2996B53B1A1988CD508006F2D1B91 /* Pods-CBTableViewDataSource-AutoHeight.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CBTableViewDataSource-AutoHeight/Pods-CBTableViewDataSource-AutoHeight.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CBTableViewDataSource_AutoHeight;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		905A12DA3C9552F3C6DB32C0C4662599 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DAB7CC260D2A147CBDC46E45BFD58FC /* CBTableViewDataSource.xcconfig */;
+			baseConfigurationReference = 77EACCDA530CB15909E85613084043B4 /* CBTableViewDataSource.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -674,7 +818,7 @@
 		};
 		A2577271CFAF9F1F2BF9E46D116E7F2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DAB7CC260D2A147CBDC46E45BFD58FC /* CBTableViewDataSource.xcconfig */;
+			baseConfigurationReference = 77EACCDA530CB15909E85613084043B4 /* CBTableViewDataSource.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -705,9 +849,42 @@
 			};
 			name = Debug;
 		};
-		A6C98192031B559DACDED1E7321C7CAC /* Release */ = {
+		B6C8BC6F38B24E1C53909B8AF7AE8359 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A3C07B2D0535F21CD336D1204766AEE /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			baseConfigurationReference = E6A3153F5C0D4CDF6896AC3B47E974FA /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UITableView_FDTemplateLayoutCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE37BFA271027FB6A5A5BBD310743819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A3153F5C0D4CDF6896AC3B47E974FA /* UITableView+FDTemplateLayoutCell.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -741,6 +918,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23AAE21AE7FDF0E5B29CA3D64848B039 /* Build configuration list for PBXNativeTarget "SDAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1E627EE5225643891F38904D1A1E05 /* Debug */,
+				60C5F6B54EB284CC096187DE2C2EEA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -759,20 +945,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9ECCD7C4497CE8A870AC7D9AFF600031 /* Build configuration list for PBXNativeTarget "Pods-CBTableViewDataSource-AutoHeight" */ = {
+		CF448492DB5C2A6687E0C509FBAAC92B /* Build configuration list for PBXNativeTarget "Pods-CBTableViewDataSource-AutoHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89D06FEE92159F38727A2FC64E36B531 /* Debug */,
-				602B3BFC965CB20D969BA883145D6500 /* Release */,
+				2DC552358E594791CF24404C585A9029 /* Debug */,
+				1BB1409F5579E12215F4BCB64EFBA9A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCF25C2ECB8D9CD8937B2EB6DBBD4390 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+		E2DA7865CE04145818A28226B89E279E /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37D23E1FA2D2F52EEC17D44BD8786C50 /* Debug */,
-				A6C98192031B559DACDED1E7321C7CAC /* Release */,
+				B6C8BC6F38B24E1C53909B8AF7AE8359 /* Debug */,
+				BE37BFA271027FB6A5A5BBD310743819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
